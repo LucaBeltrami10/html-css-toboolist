@@ -24,12 +24,12 @@ header>h1,img{
 
 
 /* MAIN */
-button{
+.button-add{
     border: 0.5px, solid;
     border-color: rgb(211, 217, 222);
     border-radius: 7px;
     padding: 7px;
-    font-weight: 600;
+    font-weight: 500;
     
     
 }
@@ -68,6 +68,7 @@ button{
 .background-color-white{
     background-color: white;
 }
+
 /* Color */
 .color-white{
     color: white;
@@ -75,10 +76,30 @@ button{
 .color-lightgray{
     color: lightgrey;
 }
+
 /* Container della sezione main */
 .container{
     background-color: white;
     border-radius: 5px;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.done{
+    color: #72c7b4;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #72c7b4;
+}
+.not-done{
+    color: #e73a31;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #e73a31;
 }
