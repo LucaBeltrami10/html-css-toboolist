@@ -39,8 +39,19 @@ header>h1,img{
     margin-bottom: 2px;
     height: 50px;
     padding-left: 5%;
-    padding-top: 5px;
-    
+    padding-top: 5px; 
+}
+.task{
+    display: inline-block;
+}
+
+/* STICKERS */
+.editorial{
+    padding: 3px;
+    background-color: #45abea;
+    border-radius: 5px;
+    font-size: 0.5em;
+    color: white;
 }
 
 
@@ -102,4 +113,9 @@ header>h1,img{
     width: 30px;
     height: 30px;
     border: 3px solid #e73a31;
+}
+
+.sticker{
+    display: inline-block;
+
 }
