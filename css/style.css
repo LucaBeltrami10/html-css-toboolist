@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgba(246,248,249,255);
+    background-color: gray;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -22,8 +22,22 @@ header>h1,img{
     vertical-align: middle;
 }
 
-/* MAIN */
 
+/* MAIN */
+button{
+    border: 0.5px, solid;
+    border-color: rgb(211, 217, 222);
+    border-radius: 7px;
+    padding: 7px;
+    font-weight: 600;
+    
+}
+
+#add-task-item{
+    height: 50px;
+    background-color: white;
+
+}
 
 
 /* CLASSI GENERICHE */
@@ -46,7 +60,13 @@ header>h1,img{
 .background-color-green{
     background-color: #b0c926;
 }
+.background-color-white{
+    background-color: white;
+}
 /* Color */
 .color-white{
     color: white;
+}
+.color-lightgray{
+    color: lightgrey;
 }
