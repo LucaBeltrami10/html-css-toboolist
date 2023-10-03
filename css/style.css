@@ -31,13 +31,18 @@ button{
     padding: 7px;
     font-weight: 600;
     
+    
 }
 
-#add-task-item{
+.add-content{
+    margin-top: 5%;
+    margin-bottom: 2px;
     height: 50px;
-    background-color: white;
-
+    padding-left: 5%;
+    padding-top: 5px;
+    
 }
+
 
 
 /* CLASSI GENERICHE */
@@ -69,4 +74,11 @@ button{
 }
 .color-lightgray{
     color: lightgrey;
+}
+/* Container della sezione main */
+.container{
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
