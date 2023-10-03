@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgba(246,248,249,255);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header{
+    background-color: white;
+    padding: 15px;
+    
+}
+header>h1,img{
+    display: inline-block;
+    font-size: 35px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+
+
+/* CLASSI GENERICHE */
+/* Background-color */
+.background-color-lightblu{
+    background-color: #45abea;
+}
+.background-color-purple{
+    background-color: #9c72e4;
+}
+.background-color-lightgreen{
+    background-color: #64c0a9;
+}
+.background-color-orange{
+    background-color: #f29e33;
+}
+.background-color-pink{
+    background-color: #d863a1;
+}
+.background-color-green{
+    background-color: #b0c926;
+}
+/* Color */
+.color-white{
+    color: white;
+}
